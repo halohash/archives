@@ -1417,7 +1417,7 @@ trend5: "i hate sauerkraut"
                     <div id="sb_foot">
                         <ul id="sw_footL">
                             <li>
-                                <span>&#169;2012 Microsoft, &#169;{{ page.date | date: "%Y" }} HaloHash</span>
+                                <span>&#169;2012 Microsoft, &#169;{{ page.date | default: site.time | date: "%Y" }} HaloHash</span>
                                 | 
                             </li>
                             <li>
