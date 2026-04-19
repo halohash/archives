@@ -1659,14 +1659,14 @@ trend5: "i hate sauerkraut"
             }
             sj_be(_w, "load", setCW),
             sj_be(_w, "resize", setCW);
-            _scopeUrls['images'] = '/images/search?q=&amp;FORM=BILH';
-            _scopeUrls['video'] = '/videos/search?q=&amp;FORM=BVLH';
-            _scopeUrls['commerce'] = '/shopping/search?q=&amp;mkt=en&amp;FORM=BPLH';
-            _scopeUrls['news'] = '/news/search?q=&amp;FORM=BNLH';
-            _scopeUrls['local'] = '/maps/default.aspx?q=&amp;mkt=en&amp;FORM=BYLH';
-            _scopeUrls['travel'] = '/travel?FORM=ZZLH';
-            _scopeUrls['entertainment'] = '/entertainment?FORM=ZZLH1';
-            _scopeUrls['history'] = '/profile/history?FORM=ZZLH2';
+            _scopeUrls['images'] = './images/search?q=&amp;FORM=BILH';
+            _scopeUrls['video'] = './videos/search?q=&amp;FORM=BVLH';
+            _scopeUrls['commerce'] = './shopping/search?q=&amp;mkt=en&amp;FORM=BPLH';
+            _scopeUrls['news'] = './news/search?q=&amp;FORM=BNLH';
+            _scopeUrls['local'] = './maps/default.aspx?q=&amp;mkt=en&amp;FORM=BYLH';
+            _scopeUrls['travel'] = './travel?FORM=ZZLH';
+            _scopeUrls['entertainment'] = './entertainment?FORM=ZZLH1';
+            _scopeUrls['history'] = './profile/history?FORM=ZZLH2';
             var _scopeRef = new Array;
             _scopeRef['images'] = '0';
             _scopeRef['video'] = '1';
@@ -1679,24 +1679,6 @@ trend5: "i hate sauerkraut"
             var _scpIID = 'SERP.1000';
             ;var sc_Popup = 1;
             sj_jb("ScopePopup2");
-            var g_hot = {
-                1: {
-                    0: "This riverside skyline crowns the most northerly of the lower 48 states.",
-                    1: "It\'s a state that\'s also celebrating a birthday today"
-                },
-                2: {
-                    0: "The people of this state have an infamous love affair with an uncommon fish.",
-                    1: "Meet the notorious food with a long half-life"
-                },
-                3: {
-                    0: "Back in the 1880s, this town grew at a feverish pace once people harnessed a powerful falls.",
-                    1: "Take a look, it runs under this bridge"
-                },
-                4: {
-                    0: "This is where you\'ll find a Prince, a Doughboy, and seven miles of pedestrian skyways on the edge of the prairie.",
-                    1: "What\'s your guess: Minneapolis or St. Paul?"
-                }
-            };
             ;function fadeComplete() {
                 var i, r, u, n, t;
                 _G.KPT = new Date,
